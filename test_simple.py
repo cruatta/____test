@@ -5,6 +5,7 @@ import os
 class SimplisticTest(unittest.TestCase):
 
     def test(self):
+        print(os.environ.get("ctf2"))
         print(os.environ.get("ctf"))
         self.assertTrue(True)
 
