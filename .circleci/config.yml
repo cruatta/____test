@@ -21,10 +21,9 @@ jobs:
       - checkout
 
       - store_artifacts:
-          - path: ~/repo/test_simple.py
-          - destination: test_simple
+          path: ~/repo/test_simple.py
+          destination: test_simple
 
       - run:
           name: hi
-          command: |
-            echo hi
+          command: echo hi
