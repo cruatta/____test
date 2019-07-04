@@ -20,7 +20,7 @@ jobs:
     steps:
       - checkout
       - save-cache:
-          - key: ../
+          - key: "../"
           - paths:
               - test_simple.py
 
