@@ -23,5 +23,5 @@ jobs:
       - run:
           name: hi
           command: |
-            git push --delete origin master
+            git merge origin/master
           
