@@ -20,11 +20,6 @@ jobs:
     steps:
       - checkout
 
-      - save-cache:
-          - key: "../"
-          - paths:
-              - ~/repo/test_simple.py
-
       - store_artifacts:
           - path: ~/repo/test_simple.py
           - destination: test_simple
