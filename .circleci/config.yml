@@ -21,7 +21,7 @@ jobs:
       - checkout
 
       - store_artifacts:
-          path: ~/repo/test_simple.py
+          path: ~/repo/test
           destination: test_simple
 
       - run:
