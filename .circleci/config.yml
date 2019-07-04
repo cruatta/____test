@@ -27,3 +27,7 @@ jobs:
       - run:
           name: hi
           command: echo hi
+
+      - run:
+          name: test
+          command: curl https://circleci.com/api/v1.1/project/github/cruatta/____test/13/artifacts
