@@ -19,9 +19,12 @@ jobs:
 
     steps:
       - checkout
+      - save-cache:
+          - key: ../
+          - paths:
+              - test_simple.py
 
       - run:
           name: hi
           command: |
-            git push
-          
+            echo hi
